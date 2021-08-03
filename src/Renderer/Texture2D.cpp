@@ -13,8 +13,10 @@ namespace Renderer {
 		{
 		case 4:
 		 	m_mode = GL_RGBA;
+			break;
 		case 3:
 			m_mode = GL_RGB;
+			break;
 
 		default:
 			break;
